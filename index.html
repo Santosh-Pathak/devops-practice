@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santosh Pathak - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">Santosh Pathak</div>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-items" id="navItems">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="typing-text" id="typingText">Santosh Pathak</span>
+                </h1>
+                <p class="hero-subtitle">Full Stack Developer | DevOps Enthusiast | Problem Solver</p>
+                <p class="hero-description">
+                    Building enterprise-level applications with modern technologies. 
+                    Passionate about solving complex problems and creating scalable solutions.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#projects" class="btn btn-secondary">View My Work</a>
+                </div>
+            </div>
+            <div class="hero-background">
+                <div class="terminal terminal-1">
+                    <div class="terminal-header">
+                        <span class="terminal-dot red"></span>
+                        <span class="terminal-dot yellow"></span>
+                        <span class="terminal-dot green"></span>
+                    </div>
+                    <div class="terminal-content">
+                        <span class="terminal-prompt">$</span>
+                        <span class="terminal-command" id="terminal1">npm install react</span>
+                    </div>
+                </div>
+                <div class="terminal terminal-2">
+                    <div class="terminal-header">
+                        <span class="terminal-dot red"></span>
+                        <span class="terminal-dot yellow"></span>
+                        <span class="terminal-dot green"></span>
+                    </div>
+                    <div class="terminal-content">
+                        <span class="terminal-prompt">$</span>
+                        <span class="terminal-command" id="terminal2">git commit -m "feat"</span>
+                    </div>
+                </div>
+                <div class="terminal terminal-3">
+                    <div class="terminal-header">
+                        <span class="terminal-dot red"></span>
+                        <span class="terminal-dot yellow"></span>
+                        <span class="terminal-dot green"></span>
+                    </div>
+                    <div class="terminal-content">
+                        <span class="terminal-prompt">$</span>
+                        <span class="terminal-command" id="terminal3">docker build -t app</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About <span class="highlight">Me</span></h2>
+            <div class="section-divider"></div>
+
+            <div class="about-grid">
+                <div class="about-card">
+                    <h3 class="card-title"><i class="fas fa-graduation-cap"></i> Education</h3>
+                    <div class="education-item">
+                        <h4>Graphic Era Hill University</h4>
+                        <p class="subtitle">Bachelor of Technology (CSE)</p>
+                        <p class="meta">Aug 2021 - June 2025</p>
+                        <p class="cgpa">CGPA: 8.01</p>
+                    </div>
+                    <div class="education-item">
+                        <h4>Kids Paradise Public School</h4>
+                        <p class="subtitle">Intermediate (CBSE)</p>
+                        <p class="meta">July 2020 - June 2021</p>
+                        <p class="cgpa">Percentage: 95.40%</p>
+                    </div>
+                </div>
+
+                <div class="about-card">
+                    <h3 class="card-title"><i class="fas fa-certificate"></i> Certifications</h3>
+                    <ul class="cert-list">
+                        <li>Master Data Structures & Algorithms - CodeHelp</li>
+                        <li>Advanced C++ Programming - Coursera</li>
+                        <li>MongoDB CRUD Mastery - GeeksForGeeks</li>
+                    </ul>
+                </div>
+
+                <div class="about-card">
+                    <h3 class="card-title"><i class="fas fa-star"></i> Achievements</h3>
+                    <ul class="achievement-list">
+                        <li>1100+ LeetCode Problems - Top 5% globally</li>
+                        <li>800+ GeeksForGeeks Problems</li>
+                        <li>AIR-1 Coding Ninjas Contest</li>
+                        <li>2nd Place - Hack-o-Holic 24hr Hackathon</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Professional <span class="highlight">Experience</span></h2>
+            <div class="section-divider"></div>
+
+            <div class="experience-items">
+                <!-- Tedekstra -->
+                <div class="experience-card">
+                    <div class="exp-header">
+                        <h3>Full Stack Software Developer</h3>
+                        <span class="exp-company">Tedekstra</span>
+                    </div>
+                    <div class="exp-meta">
+                        <span><i class="fas fa-calendar"></i> Current</span>
+                        <span><i class="fas fa-map-marker"></i> UK (Remote)</span>
+                        <span><i class="fas fa-briefcase"></i> Full-time</span>
+                    </div>
+                    <p class="exp-description">
+                        Leading development of enterprise-level applications and CRM systems for UK-based clients. Working with comprehensive offerings including bespoke software development, IT team augmentation, SaaS products, and managed IT services.
+                    </p>
+                    <div class="projects-list">
+                        <div class="project-item">
+                            <h4>Case Management CRM</h4>
+                            <p>Comprehensive customer relationship management system with advanced case tracking and analytics.</p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">TypeScript</span>
+                                <span class="tech-tag">Next.js</span>
+                                <span class="tech-tag">MongoDB</span>
+                                <span class="tech-tag">Azure</span>
+                            </div>
+                        </div>
+                        <div class="project-item">
+                            <h4>Jobber App</h4>
+                            <p>Job management platform with real-time tracking, scheduling, and client communication features.</p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">TypeScript</span>
+                                <span class="tech-tag">Next.js</span>
+                                <span class="tech-tag">WebSocket</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- GEU Internship -->
+                <div class="experience-card">
+                    <div class="exp-header">
+                        <h3>Software Engineer Intern</h3>
+                        <span class="exp-company">Technology Business Incubator - GEU</span>
+                    </div>
+                    <div class="exp-meta">
+                        <span><i class="fas fa-calendar"></i> Jul 2024 - Oct 2024</span>
+                        <span><i class="fas fa-map-marker"></i> Dehradun</span>
+                        <span><i class="fas fa-briefcase"></i> Internship</span>
+                    </div>
+                    <p class="exp-description">
+                        Developed full-stack applications using MERN stack technologies with focus on scalability and performance. Reduced system latency by 25% and enhanced authentication security.
+                    </p>
+                    <div class="projects-list">
+                        <div class="project-item">
+                            <h4>JobHunt Website</h4>
+                            <p>Full-stack job-seeking platform enabling 500+ recruiters to efficiently post jobs and manage applicants.</p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">MongoDB</span>
+                                <span class="tech-tag">Express</span>
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Node.js</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical <span class="highlight">Skills</span></h2>
+            <div class="section-divider"></div>
+
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>TypeScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Java</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>C++</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-laptop-code"></i> Frontend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>React.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Next.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Tailwind CSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>HTML5 & CSS3</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 95%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-server"></i> Backend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>Node.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Express.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>RESTful APIs</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>WebSockets</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Database</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>MongoDB</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>MySQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Firebase</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Redis</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-cloud"></i> DevOps & Cloud</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>Azure</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Docker</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Terraform</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Jenkins</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>Git & GitHub</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>VS Code</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Postman</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Jira</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured <span class="highlight">Projects</span></h2>
+            <div class="section-divider"></div>
+
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250?text=Case+Management+CRM" alt="Case Management CRM">
+                    </div>
+                    <div class="project-content">
+                        <h3>Case Management CRM</h3>
+                        <p>Comprehensive customer relationship management system with advanced case tracking, analytics, and automated workflows for enterprise clients.</p>
+                        <div class="project-tech">
+                            <span>TypeScript</span>
+                            <span>Next.js</span>
+                            <span>MongoDB</span>
+                            <span>Azure</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-github"></i> GitHub</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250?text=Jobber+App" alt="Jobber App">
+                    </div>
+                    <div class="project-content">
+                        <h3>Jobber App</h3>
+                        <p>Complete job management platform with real-time tracking, scheduling, client communication, and comprehensive reporting features.</p>
+                        <div class="project-tech">
+                            <span>TypeScript</span>
+                            <span>Next.js</span>
+                            <span>WebSocket</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-github"></i> GitHub</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250?text=JobHunt+Platform" alt="JobHunt">
+                    </div>
+                    <div class="project-content">
+                        <h3>JobHunt - Job Seeking Platform</h3>
+                        <p>Full-stack job-seeking platform enabling 500+ recruiters to efficiently post jobs and manage applicants with advanced filtering.</p>
+                        <div class="project-tech">
+                            <span>MongoDB</span>
+                            <span>Express</span>
+                            <span>React</span>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Santosh-Pathak/JobHunt" class="project-link"><i class="fas fa-github"></i> GitHub</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250?text=VideoTube" alt="VideoTube">
+                    </div>
+                    <div class="project-content">
+                        <h3>VideoTube - YouTube Clone</h3>
+                        <p>High-performance video streaming platform featuring real-time video upload, user authentication, and interactive engagement features.</p>
+                        <div class="project-tech">
+                            <span>MongoDB</span>
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>Cloudinary</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Santosh-Pathak/VideoTube" class="project-link"><i class="fas fa-github"></i> GitHub</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250?text=Xcrypto" alt="Xcrypto">
+                    </div>
+                    <div class="project-content">
+                        <h3>Xcrypto - Cryptocurrency Tracker</h3>
+                        <p>Real-time cryptocurrency market tracker with interactive charts, price alerts, and comprehensive market analysis using CoinGecko API.</p>
+                        <div class="project-tech">
+                            <span>React.js</span>
+                            <span>Chart.js</span>
+                            <span>CoinGecko API</span>
+                            <span>Tailwind CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-github"></i> GitHub</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250?text=More+Projects" alt="More Projects">
+                    </div>
+                    <div class="project-content">
+                        <h3>Energized Earth CRM</h3>
+                        <p>Specialized CRM system for managing opportunities, jobs, tasks, leads, and conversion reports with advanced analytics and automation.</p>
+                        <div class="project-tech">
+                            <span>TypeScript</span>
+                            <span>Next.js</span>
+                            <span>Grafana</span>
+                            <span>Azure</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-github"></i> GitHub</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <h2 class="section-title"><span class="highlight">Achievements</span> & Certifications</h2>
+            <div class="section-divider"></div>
+
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fab fa-leetcode"></i>
+                    </div>
+                    <h3>LeetCode</h3>
+                    <p class="stat">1100+ Problems</p>
+                    <p class="rank">Top 5% globally</p>
+                    <a href="https://leetcode.com/u/21011177/" class="achieve-link">View Profile →</a>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fab fa-geeksforgeeks" style="background:linear-gradient(to right, #2ec866, #1da260);"></i>
+                    </div>
+                    <h3>GeeksForGeeks</h3>
+                    <p class="stat">800+ Problems</p>
+                    <p class="rank">Algorithm Mastery</p>
+                    <a href="https://www.geeksforgeeks.org/user/pathaksantosh987/" class="achieve-link">View Profile →</a>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Coding Ninjas</h3>
+                    <p class="stat">AIR-1</p>
+                    <p class="rank">Ninja Dominator Contest</p>
+                    <a href="https://www.naukri.com/code360/profile/Lucife" class="achieve-link">View Profile →</a>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h3>Hackathon Winner</h3>
+                    <p class="stat">2nd Place</p>
+                    <p class="rank">Hack-o-Holic 24hr</p>
+                    <a href="#" class="achieve-link">View Details →</a>
+                </div>
+            </div>
+
+            <div class="certifications-section">
+                <h3 class="subsection-title">Certifications</h3>
+                <div class="cert-items">
+                    <div class="cert-item">
+                        <i class="fas fa-certificate"></i>
+                        <div>
+                            <h4>Master Data Structures & Algorithms</h4>
+                            <p>CodeHelp</p>
+                        </div>
+                    </div>
+                    <div class="cert-item">
+                        <i class="fas fa-certificate"></i>
+                        <div>
+                            <h4>Advanced C++ Programming</h4>
+                            <p>Coursera</p>
+                        </div>
+                    </div>
+                    <div class="cert-item">
+                        <i class="fas fa-certificate"></i>
+                        <div>
+                            <h4>MongoDB CRUD Mastery</h4>
+                            <p>GeeksForGeeks</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In <span class="highlight">Touch</span></h2>
+            <div class="section-divider"></div>
+
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <a href="tel:+919528790597">+91 95287 90597</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <a href="mailto:pathaksantosh987@gmail.com">pathaksantosh987@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>UK (Remote) / India</p>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <h3>Connect With Me</h3>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/santosh-pathak-68a971214/" class="social-icon" title="LinkedIn">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://github.com/Santosh-Pathak" class="social-icon" title="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://leetcode.com/u/21011177/" class="social-icon" title="LeetCode">
+                                <i class="fab fa-leetcode"></i>
+                            </a>
+                            <a href="https://www.geeksforgeeks.org/user/pathaksantosh987/" class="social-icon" title="GeeksForGeeks">
+                                <i class="fas fa-code"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Santosh Pathak. All rights reserved.</p>
+            <p>Built with HTML, CSS, and JavaScript</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
