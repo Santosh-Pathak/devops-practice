@@ -17,6 +17,10 @@ jobs:
       name: github-pages
       url: ${{ steps.deploy-pages.outputs.page_url }}
 
+      # strategy:
+      #   fail-fast: false
+      #   matrix:
+      #     node-version: [18.1, 18.2, 18.3]
 
     steps: 
     #get access to your portfolio code via predefined/pre-built  action
