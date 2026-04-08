@@ -16,4 +16,4 @@ FROM python:3.10-slim
 WORKDIR /app
 COPY --from=builder /app /app
 EXPOSE 5000
-CMD ["python", "app.py"]
+CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "5000"]
